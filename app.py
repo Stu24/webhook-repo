@@ -4,7 +4,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-client = MongoClient("YOUR_MONGODB_ATLAS_URI_HERE")  # Replace this
+client = MongoClient("mongodb+srv://stuti:iOeETKNtlYtsmu97@python.xwjox7c.mongodb.net/?retryWrites=true&w=majority&appName=Python")  # Replace this
 db = client["webhook_db"]
 collection = db["events"]
 
